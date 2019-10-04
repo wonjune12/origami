@@ -58,3 +58,4 @@ gem "aws-sdk-s3", require: false
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
 gem 'devise'
+gem "rubyzip", ">= 1.3.0"
