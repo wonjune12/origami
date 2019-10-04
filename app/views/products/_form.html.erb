@@ -10,6 +10,27 @@
       </ul>
     </div>
   <% end %>
+  <div class="field">
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+</div>
+<div class="field">
+  <%= form.file_field :image%>
+</div>
+<div class="field">
+  <%= form.label :color %>
+  <%= form.text_field :color %>
+</div>
+
+<div class="field">
+  <%= form.label :price %>
+  <%= form.number_field :price %>
+</div>
+
+<div class="actions">
+  <%= form.submit %>
+</div>
+<% end %>
 
   <div class="actions">
     <%= form.submit %>

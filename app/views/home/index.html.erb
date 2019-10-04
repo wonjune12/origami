@@ -1,0 +1,50 @@
+
+
+<div class="container" style="margin-top:100px;">
+<center><h1>All things attached</h1> </center>  
+<div class="media border-0" style="margin-top:200px;">
+  <img class="align-self-center mr-3" src="https://via.placeholder.com/300" alt="">
+    <div class="media-body">
+      <h3 class="media-title">Media Left</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container" style="margin-top:100px;">
+<div class="media border-0" style="margin-top:200px;">
+    <div class="media-body">
+      <h3 class="media-title">Media Left</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+    </div>
+    <img class="align-self-center mr-3" src="https://via.placeholder.com/300" alt="">
+
+  </div>
+</div>
+</div>
+
+
+<div>
+<center>
+  <button><%= link_to "products", products_path %> </button>
+  </center>
+</div>
+
+
+
+<footer>
+<div class='bottomright'>
+
+  <% if seller_signed_in? %>
+  <%= link_to "Logout", destroy_model_session_url, method: :delete%> |
+    <%= link_to 'add new products', new_product_path %>
+  <% else%>
+    <%= link_to "admin login", new_seller_session_path %>
+  <%end%>
+</div>
+</footer>
+
+
+
+
