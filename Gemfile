@@ -57,5 +57,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "aws-sdk-s3", require: false
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
-gem 'react-rails'
 gem 'devise'
